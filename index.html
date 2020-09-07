@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            background-color: #f0f0f0;
+        }
+        a{
+            display: block;
+            text-decoration: none; 
+        }
+        img{
+            display: block;
+            width: 100%;    
+        }
+        h2{
+            height: 50px;
+            line-height: 50px;
+            text-align: center;
+            margin-top: 20px;
+            background-color: #fff;
+        }
+        .big-box{
+            width: 900px;
+            margin: 0 auto;
+        }
+        .head{
+            display: flex;
+            justify-content: space-around;
+            margin: 60px auto;
+        }
+        .box{
+            width: 400px;
+            transition: all 1s;
+            background-color: #000;
+            opacity: .9;
+        }
+        .items{
+            width: 100%;
+        }
+        .box:hover{
+            transform: scale(1.2);
+            opacity: 1.4;
+        }
+        .box-title{
+            height: 60px;
+            font-size: 16px;
+            text-align: center;
+            line-height: 60px;
+            background-color: rgba(0,0,0,.2);
+            color: #fff
+        }
+    </style>
+</head>
+<body>
+    <div class="big-box">
+        
+    <h2>Welcome to my gitHub</h2>
+    <div class="head">
+        <div class="box">
+            <a href="./Coffee/index.html" class="items">
+                <img src="https://cdn.pixabay.com/photo/2017/01/12/14/22/coffee-1974841_960_720.jpg" alt=""></a>
+                <div class="box-title">怪兽咖啡(移动)</div>   
+        </div>
+        <div class="box">
+            <a href="./Novels/index.html" class="items">
+                <img src="https://cdn.pixabay.com/photo/2017/10/16/01/00/book-2855857_960_720.jpg" alt=""></a>
+                <div class="box-title">吃瓜小说(移动)</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
